@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+@font-face {
+  font-family: warcraft;
+  src: url(fonts/LifeCraft_Font.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(fonts/Underdog-Regular.ttf);
+}
+@font-face {
+  font-family: tittle;
+  src: url(fonts/SpectralSC-Medium.ttf);
+}
+b{
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+}
+b:hover{
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+  font-weight: 900;
+}
+h1{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: tittle;
+}
+h2{
+  font-family: tittle;
+  color: white;
+  font-size: 55px;
+}
+p{
+  color: rgb(224, 224, 224);
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+a{
+  color: rgb(187, 187, 187);
+  font-size: 20px;
+  font-family: paragraph;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+a:hover{
+  color: white;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu{
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+  height: 3rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 20%;
+  transition: opacity 0.5s, background-color 0.7s;
+}
+.menu:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 100%;
+}
+.link{
+  color: aliceblue;
+}
+.content{
+  padding: 10px 60px;
+}
+.tittle, .titans, .theBurningLegion, .draenor, .argus, .theFirstWar, .darkPortal, .theSecondWar, .lichKing, .theThirdWar, .wow, .opros{
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+.tittle{
+  top: 0;
+  background-image: url(image/back/tittle.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titans{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/titans.jpg);
+}
+.panteon{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+.panteon__img{
+  width: 200px;
+  height: 266px;
+  transition: all 0.5s;
+  border-radius: 10px;
+  border: solid 1px rgb(39, 39, 39);
+}
+.panteon__img:hover{
+  cursor: pointer;
+  opacity: 60%;
+  border: solid 1px rgb(163, 163, 163);
+}
+
+.theBurningLegion{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/theBurningLegion.png);
+}
+.draenor{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/draenor.png);
+}
+.argus{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/arg.png);
+}
+.theFirstWar{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/war1.png);
+}
+.darkPortal{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/darkPortal.png);
+}
+.theSecondWar{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/war2.png);
+}
+.lichKing{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/King.png);
+}
+.theThirdWar{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/war3.png);
+}
+.wow{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/wow.png);
+}
+.opros{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/opros.jpg);
+}
+.block{
+  height: calc(100vh - 5rem);
+  margin: 0.5rem 0;
+  padding: 3rem;
+  background-color: rgb(68, 68, 68);
+  color: aliceblue;
+  font-size: 5rem;
+}

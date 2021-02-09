@@ -1,0 +1,1 @@
+let titans = document.querySelector('.titans__content')
