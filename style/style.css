@@ -1,6 +1,7 @@
 body{
   margin: 0;
   background-color: black;
+  min-width: 600px;
 }
 @font-face {
   font-family: warcraft;
