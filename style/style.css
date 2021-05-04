@@ -101,11 +101,11 @@ p{
   padding: 25px;
   margin: auto;
 }
-.tittle, .titans, .theBurningLegion, .draenor, .argus, .theFirstWar, .darkPortal, .theSecondWar, .lichKing, .theThirdWar, .wow, .opros{
+.tittle, .titans, .theBurningLegion, .draenor, .argus, .theFirstWar, .darkPortal, .theSecondWar, .lichKing, .theThirdWar, .wow, .wow1, .wow2, .wow3, .wow4, .wow5, .wow6, .wow7, .wow8, .wow9, .wow10, .opros{
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
 }
 .tittle{
@@ -159,9 +159,34 @@ p{
   height: 600px;
   justify-content: space-between;
 }
+.wrapper_wow{
+  display: flex;
+  height: 300px;
+  gap: 30px;
+}
+.wrapper_wow3{
+  display: flex;
+  height: 260px;
+  gap: 30px;
+}
+.wrapper_wow6{
+  display: flex;
+  height: 460px;
+  gap: 30px;
+}
+.wrapper_w8{
+  display: flex;
+  height: 460px;
+  gap: 30px;
+}
+.wrapper_w9{
+  display: flex;
+  height: 300px;
+  gap: 30px;
+}
 .img{
   border-radius: 5px;
-  transition: opacity 0.5s;
+  transition: opacity 1.5s;
 }
 .img:hover{
   cursor: pointer;
@@ -169,7 +194,7 @@ p{
 }
 .image{
   border-radius: 5px;
-  transition: opacity 0.5s;
+  transition: opacity 1.5s;
   width: 85%;
   height: 85%;
   margin: auto;
@@ -224,7 +249,43 @@ p{
   min-width: 1500px;
 }
 .wow{
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/wow.png);
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/1.jpg);
+  min-width: 1500px;
+}
+.wow2{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/2.jpg);
+  min-width: 1500px;
+}
+.wow3{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/3.jpg);
+  min-width: 1500px;
+}
+.wow4{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/4.jpg);
+  min-width: 1500px;
+}
+.wow5{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/5.jpg);
+  min-width: 1500px;
+}
+.wow6{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/6.jpg);
+  min-width: 1500px;
+}
+.wow7{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/7.jpg);
+  min-width: 1500px;
+}
+.wow8{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/8.jpg);
+  min-width: 1500px;
+}
+.wow9{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/9.jpg);
+  min-width: 1500px;
+}
+.wow10{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/wow/back/10.jpg);
   min-width: 1500px;
 }
 .opros{
