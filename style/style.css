@@ -34,49 +34,72 @@ h2{
   font-family: tittle;
   color: white;
   font-size: 55px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+h3{
+  font-family: tittle;
+  color: white;
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
 }
 p{
   color: rgb(224, 224, 224);
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
 }
-a{
+.link_font{
   color: rgb(187, 187, 187);
   font-size: 20px;
   font-family: paragraph;
   text-decoration: none;
   transition: color 0.5s;
 }
-a:hover{
+.link_font:hover{
   color: white;
+}
+.link_text{
+  color: rgb(224, 224, 224);
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-weight: bold;
 }
 .page{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-content: center;
 }
 .menu{
+  width: 100%;
   display: flex;
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0);
   color: aliceblue;
   height: 3rem;
-  width: 100%;
   justify-content: space-around;
   align-items: center;
   opacity: 20%;
   transition: opacity 0.5s, background-color 0.7s;
 }
 .menu:hover{
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   opacity: 100%;
 }
 .link{
   color: aliceblue;
 }
 .content{
-  padding: 10px 60px;
+  width: 1450px;
+  max-width: 1450px;
+  min-width: 1450px;
+  padding: 25px;
+  margin: auto;
 }
 .tittle, .titans, .theBurningLegion, .draenor, .argus, .theFirstWar, .darkPortal, .theSecondWar, .lichKing, .theThirdWar, .wow, .opros{
   background-position: 50% 50%;
@@ -91,15 +114,16 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 1500px;
 }
 .titans{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/titans.jpg);
+  min-width: 1500px;
 }
 .panteon{
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .panteon__img{
   width: 200px;
@@ -107,42 +131,105 @@ a:hover{
   transition: all 0.5s;
   border-radius: 10px;
   border: solid 1px rgb(39, 39, 39);
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+  margin: 10px 70px;
 }
 .panteon__img:hover{
   cursor: pointer;
   opacity: 60%;
-  border: solid 1px rgb(163, 163, 163);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.wrapper__legion{
+  display: flex;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.4);
+  gap: 20px;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+.wrapper__legion2{
+  display: flex;
+  height: 490px;
+  gap: 20px;
+  margin: 20px 0;
+}
+.wrapper__legion3{
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+}
+.img{
+  border-radius: 5px;
+  transition: opacity 0.5s;
+}
+.img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.image{
+  border-radius: 5px;
+  transition: opacity 0.5s;
+  width: 85%;
+  height: 85%;
+  margin: auto;
+}
+.image:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.wrapper_dp1{
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+}
+.wrapper_dp2{
+  display: flex;
+  height: 670px;
+  gap: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0 20px;
 }
 
 .theBurningLegion{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/theBurningLegion.png);
+  min-width: 1500px;
 }
 .draenor{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/draenor.png);
+  min-width: 1500px;
 }
 .argus{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/arg.png);
+  min-width: 1500px;
 }
 .theFirstWar{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/war1.png);
+  min-width: 1500px;
 }
 .darkPortal{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/darkPortal.png);
+  min-width: 1500px;
 }
 .theSecondWar{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/war2.png);
+  min-width: 1500px;
 }
 .lichKing{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/King.png);
+  min-width: 1500px;
 }
 .theThirdWar{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/war3.png);
+  min-width: 1500px;
 }
 .wow{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/wow.png);
+  min-width: 1500px;
 }
 .opros{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/back/opros.jpg);
+  min-width: 1500px;
 }
 .block{
   height: calc(100vh - 5rem);
@@ -152,7 +239,7 @@ a:hover{
   color: aliceblue;
   font-size: 5rem;
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .menu{
     flex-wrap: wrap;
     opacity: 80%;
@@ -168,4 +255,4 @@ a:hover{
   a{
     font-size: 13px;
   }
-}
+} */
