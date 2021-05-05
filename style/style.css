@@ -88,7 +88,7 @@ p{
   transition: opacity 0.5s, background-color 0.7s;
 }
 .menu:hover{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.98);
   opacity: 100%;
 }
 .link{
@@ -131,14 +131,11 @@ p{
   height: 266px;
   transition: all 0.5s;
   border-radius: 10px;
-  border: solid 1px rgb(39, 39, 39);
-  box-shadow: 0 0 0 rgba(0,0,0,0.5);
   margin: 10px 70px;
 }
 .panteon__img:hover{
   cursor: pointer;
   opacity: 60%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .wrapper__legion{
@@ -224,6 +221,16 @@ p{
   display: flex;
   height: 340px;
   gap: 160px;
+}
+.wrapper_w1{
+  display: flex;
+  height: 450px;
+  gap: 50px;
+}
+.wrapper_w11{
+  display: flex;
+  height: 450px;
+  gap: 50px;
 }
 
 .img{
@@ -341,6 +348,18 @@ p{
   background-color: rgb(68, 68, 68);
   color: aliceblue;
   font-size: 5rem;
+}
+
+#floatTip {
+  position: absolute; /* Абсолютное позиционирование */
+  width: 250px; /* Ширина блока */
+  display: none; /* Прячем от показа */
+  border: 1px solid #000; /* Параметры рамки */
+  padding: 4px; /* Поля вокруг  текста */
+  font-family: sans-serif; /* Рубленый шрифт */
+  font-size: 9pt; /* Размер  шрифта */
+  color: #333; /* Цвет текста */
+  background: #ffe5ff; /* Цвет фона */
 }
 /* @media (max-width: 800px) {
   .menu{
