@@ -1,5 +1,5 @@
 function illidanSay(){
-  new Audio('/song/illidan.mp3').play()
+  new Audio('./song/illidan.mp3').play()
 }
 
 function ioggSay(){
