@@ -86,6 +86,7 @@ p{
   align-items: center;
   opacity: 20%;
   transition: opacity 0.5s, background-color 0.7s;
+  z-index: 1000;
 }
 .menu:hover{
   background-color: rgba(0, 0, 0, 0.98);
@@ -235,22 +236,22 @@ p{
 
 .img{
   border-radius: 5px;
-  transition: opacity 1.5s;
+  transition: opacity 0.2s;
 }
 .img:hover{
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .image{
   border-radius: 5px;
-  transition: opacity 1.5s;
+  transition: opacity 0.2s;
   width: 85%;
   height: 85%;
   margin: auto;
 }
 .image:hover{
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .wrapper_dp1{
   display: flex;
