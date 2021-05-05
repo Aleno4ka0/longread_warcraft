@@ -233,6 +233,17 @@ p{
   height: 450px;
   gap: 50px;
 }
+.drenor_1{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 840px 560px;
+}
+.drenor_2{
+  display: flex;
+  height: 520px;
+  gap: 50px;
+  align-items: center;
+}
 
 .img{
   border-radius: 5px;
