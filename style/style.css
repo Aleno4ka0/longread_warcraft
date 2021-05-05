@@ -50,6 +50,13 @@ p{
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none; 
 }
 .link_font{
   color: rgb(187, 187, 187);
