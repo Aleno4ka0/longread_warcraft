@@ -185,6 +185,47 @@ p{
   height: 300px;
   gap: 30px;
 }
+.wrapper_LK{
+  display: flex;
+  height: 400px;
+  gap: 30px;
+}
+.wrapper_LK2{
+  display: flex;
+  height: 400px;
+  gap: 50px;
+}
+.wrapper_w2{
+  display: flex;
+  height: 350px;
+  gap: 30px;
+}
+.wrapper_w22{
+  display: flex;
+  height: 440px;
+  gap: 50px;
+}
+.wrapper_w23{
+  display: flex;
+  height: 350px;
+  gap: 50px;
+}
+.wrapper_w3{
+  display: flex;
+  height: 350px;
+  gap: 50px;
+}
+.wrapper_w32{
+  display: flex;
+  height: 520px;
+  gap: 50px;
+}
+.wrapper_w33{
+  display: flex;
+  height: 340px;
+  gap: 160px;
+}
+
 .img{
   border-radius: 5px;
   transition: opacity 1.5s;
